@@ -12,8 +12,8 @@ package Facade;
 public class facadeApp {
     public static void main(String[] args) {
         StudentMaker amMaker = StudentMaker.getMaker();
-        amMaker.viewITStudent();
-        amMaker.viewENGStudent();
+                amMaker.viewENGStudent();
+                amMaker.viewITStudent();
         
     }
     
