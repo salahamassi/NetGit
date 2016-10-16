@@ -9,8 +9,19 @@ package State;
  *
  * @author aashgar
  */
-public interface State {
+public class Context {
     
-    public void doAction(Context context);
-
+    private State state;
+    
+    public Context (){
+    state = null;
+    }
+    
+    public void setstate (State state){
+    this.state = state;
+    }
+    
+    public State getstate(){
+    return state;
+    }
 }
